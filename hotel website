@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Restaurant Page</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            
+        }
+        h1 {
+            background-color:Brown; 
+            color:Gold; 
+           
+        }
+        .menu-section {
+            margin: 20px auto;
+            width: 80%;
+        }
+        .menu-item {
+            display: inline-block;
+            width: 250px;
+            margin: 20px;
+            vertical-align: top;
+        }
+        img {
+            width: 100%;
+            height: auto;  
+        }
+        .footer {
+            background-color: brown;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>WELCOME TO CHILL DRINKS</h1>
+    <p><em>Your favorite place for refreshment.</em></p>
+
+    <div class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <ul type="square">
+            <li><h3>Blueberry Mojito</h3></li>
+            <p><b>Price:</b> ₹70</p>
+            <img src="blueberry mojito.jpg" alt="Blueberry Mojito">
+            </ul>
+        </div>
+
+        <div class="menu-item">
+            <ul type ="sqaure">
+            <li><h3>Virgin Strawberry Mojito</h3></li>
+            <p><b>Price:</b> ₹85</p>
+            <img src="virgin strawberry mojito.jpg" alt="Virgin Strawberry Mojito">
+        </div>
+
+        <div class="menu-item">
+            <ul type = "square">
+            <li><h3>Virgin Mojito</h3></li>
+            <p><b>Price:</b> ₹75</p>
+            <img src="virgin mojito.jpg" alt="Virgin Mojito">
+            </ul>
+        </div>
+    </div>
+
+    <h2>Our Timings</h2>
+    <center>
+    <table border = "1">
+            <tr>
+                <th>DAY</th>
+                <th>OPENING TIME</th>
+                <th>CLOSING TIME</th>
+            </tr>
+        
+            <tr>
+                <td>Monday - Friday</td>
+                <td>10:00 AM</td>
+                <td>10:00 PM</td>
+            </tr>
+            <tr>
+                <td>Saturday - Sunday</td>
+                <td>9:00 AM</td>
+                <td>11:00 PM</td>
+            </tr>
+    </center>  
+    </table>
+
+    <center>
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@ChillDrinks.com">info@ChillDrinks.com</a></p>
+        <p>Phone: <b>9845673290</b></p>
+        <p>Location: </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.83463779742!2d-99.2339707!3d19.3329806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdff5723e1476d%3A0xe926b1c473038819!2sCHILL%20DRINK!5e0!3m2!1sen!2sin!4v1740316940379!5m2!1sen!2sin"
+        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+
+    <div class="footer">
+        <p>&copy; 2025 Chill Drinks. All Rights Reserved.</p>
+    </div>
+
+</body>
+</html>
 
